@@ -81,8 +81,8 @@ img {
 
 .header-nav-a:hover,
 .header-nav-a:focus,
-.header-address-a:hover,
-.header-address-a:focus{
+.header-address-a a:hover,
+.header-address-a a:focus{
     color:#404bbf;
 }
 
@@ -107,7 +107,7 @@ img {
     gap: 40px;
 }
 
-.header-address-a {
+.header-address-a a{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
